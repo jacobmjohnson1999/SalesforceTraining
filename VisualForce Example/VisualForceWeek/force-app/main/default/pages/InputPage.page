@@ -1,0 +1,15 @@
+<apex:page standardController="Account" extensions="ExceptionPageController">
+    <apex:form >
+    	<apex:pageBlock >
+        	<apex:pageBlockSection >
+                <apex:inputField value="{!account.Name}" />
+                <apex:inputField value="{!account.billingState}" />
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+            	<apex:commandButton action="{!save}" value="Save"/>
+                <apex:commandButton action="{!makeitbreak}" value="Break"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+    <apex:pageMessages />
+</apex:page>

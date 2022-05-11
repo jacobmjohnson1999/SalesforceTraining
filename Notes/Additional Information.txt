@@ -1,0 +1,69 @@
+Additional Org configuration
+Company Information
+If you want to see information about your company, like address, language, used storage , ect. You are going to go to Company information in setup. This will also show you the licenses that you have available to you
+
+Multiple Currencies
+Can enable multiple currencies, but once its enabled it can't be disabled. Also this will add a required currency field on every object
+
+Custom Fiscal Year
+You cannot disable once you have enabled custom fiscal years
+
+Trusted Ips and MFA
+MFA: Multi-factor Authentication 
+
+Salesforce gives the ability to enable mfa for our users, it is enabled on the profile level
+
+Once you've enabled mfa for a profile you can then configure that profiles trusted Ip ranges: this functions as a subset of ips from which a user won't have to use MFA
+
+
+
+
+
+Chatter
+a communication channel inside of Salesforce, it looks a whole lot like twitter.
+It exists is to streamline communication between coworkers
+Chatter allows us to create posts, polls, and questions that can be related to a record or just in a chatter group
+Posts look a whole lot like twitter, # signifies a topic in chatter, we can @ other users
+You can follow users and records
+Anything that you follow will appear in your feed as well as posts in groups that you are part of
+To allow following you first must make that object enable chatter feed tracking, then in chatter feed tracking you must enable it again on the object and then you can pick the fields you want changes to appear in your chatter feed
+Chatter Group
+
+are meant to be a place where related users can work together and collaborate
+Public: anyone can post and read posts that are made in this group even if you aren't a member
+Private:anyone can see this group, only members can read or add posts but you can ask to join
+Unlisted: you have to be invited and if you aren't you won't even know this group exists
+
+
+Activities
+Are tasks and Events and they aren't separate objects because salesforce is weird
+If you want to add a new field to the task object or event object you actually have to modify the activity object
+When we allow activities we allow there to be tasks and events related to that object
+Tasks: are to do list items or sticky notes
+Events: are going to be things like meetings, conferences, parties, ect.. things you go to that have a time duration
+
+
+External Applications
+Heroku with Salesforce
+
+platform as a service based container system with integrated data services
+dynos: the containers used by heroku, provide a lightweight isolated environment
+salesforce connent: allows us to connect our salesforce org to an app on the heroku platform
+postgres: the relational database used by heroku
+apache kafka: messaging service available in heroku that uses the pub-sub model
+redis: the in memory key-value data store used by heroku
+Email Service integration
+
+Outlook integration: which allows you to connect your outlook email to salesforce, you can use global actions, related emails and events to records, use org-made email templates, and create new contacts and lead from emails
+Lightning for Gmail: relate emails and meetings to salesforce records, allow users to view CrM info related to emails like contacts
+
+
+
+
+
+
+HTML
+HyperText Markup Language
+used for creating web pages and applications
+It is the content you want to see on the web page
+It uses a collection of elements and attributes to provide the structure of the document

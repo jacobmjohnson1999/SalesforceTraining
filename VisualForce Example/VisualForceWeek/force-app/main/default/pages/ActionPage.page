@@ -1,0 +1,17 @@
+<apex:page controller="ActionPageController">
+    <apex:form >
+    	<apex:pageBlock >
+        	<apex:pageBlockSection >
+            	<apex:outputPanel id="panel1">
+                    <apex:outputText value="Click Here to Increment" />
+                    <apex:actionSupport event="onclick" action="{!incrementCounter}" rerender="out"/>
+                </apex:outputPanel>
+                <apex:outputPanel id="panel2">
+                    <apex:outputText value="Click Here to decrement" />
+                    <apex:actionSupport event="onclick" action="{!decrementCounter}" rerender="out"/>
+                </apex:outputPanel>
+                <apex:outputText value="{!count}" id="out" label="Count is: "  />
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

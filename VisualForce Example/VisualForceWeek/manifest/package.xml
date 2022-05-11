@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CustomExtensionPageController</members>
+        <members>CustomPageController</members>
+        <members>ExceptionPageController</members>
+        <members>ActionPageController</members>
+        <members>VFTDemo</members>
+        <name>ApexClass</name>
+    </types>
+    <!--
+    <types>
+        <members></members>
+        <name>ApexComponent</name>
+    </types> -->
+    <types>
+        <members>MyFirstPage</members>
+        <members>AccountStConPage</members>
+        <members>AccountSetConPage</members>
+        <members>CustomExtensionPage</members>
+        <members>CustomPageControllerPage</members>
+        <members>InputPage</members>
+        <members>TablesPage</members>
+        <members>ActionPage</members>
+        <members>VFTPage</members>
+        <name>ApexPage</name>
+    </types>
+    <!--<types>
+        <members></members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members></members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members></members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members></members>
+        <name>LightningComponentBundle</name>
+    </types> -->
+    <types>
+        <members>MyImage</members>
+        <name>StaticResource</name>
+    </types> 
+    <version>52.0</version>
+</Package>

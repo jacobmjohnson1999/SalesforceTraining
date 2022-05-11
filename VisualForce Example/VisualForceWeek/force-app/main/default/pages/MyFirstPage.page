@@ -1,0 +1,9 @@
+<!--<apex:page renderAs="pdf"> will make it render as a pdf -->
+<apex:page >
+    <h3>
+        Hello World!
+    </h3>
+    <!-- To reference a static resource you going to use this syntax {!Resource.resourceName} this is called expression syntax {!} the $ indicates that we are referencing one of
+our global variables-->
+    <img src="{!$Resource.MyImage}" alt="Cannot display mini ship" />
+</apex:page>

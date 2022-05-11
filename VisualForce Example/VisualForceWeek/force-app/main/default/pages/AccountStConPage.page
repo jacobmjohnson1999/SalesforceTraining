@@ -1,0 +1,14 @@
+<apex:page standardController="Account">
+    <apex:form >
+    	<apex:pageBlock >
+        	<apex:pageBlockSection >
+                <apex:outputText value="{!Account.Name}" />
+                <apex:outputText value="{!Account.BillingStreet}" />
+                <apex:outputText value="{!Account.BillingState}" />
+                <apex:outputText value="{!Account.BillingPostalCode}" />
+                <apex:outputText value="{!Account.BillingCity}" />
+            </apex:pageBlockSection>
+            <apex:commandButton action="{!delete}" value="Delete Record" id="delButton" />
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

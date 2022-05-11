@@ -1,0 +1,14 @@
+<apex:page controller="CustomPageController">
+    <apex:form >
+    	<apex:pageBlock >
+        	<apex:pageBlockSection >
+                <apex:outputText value="{!acc.Name}" />
+                Contacts
+                <apex:pageBlockTable value="{!conList}" var="con" >
+                	<apex:column value="{!con.Name}"/>
+                    <apex:column value="{!con.Phone}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

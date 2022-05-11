@@ -1,0 +1,45 @@
+Security
+Org Level: restricting access to your organization, who can log in, where they can login from, and what features of your org/salesforce could they have access to
+
+Tools: License, Profiles (Login hours and Ip ranges)
+Object Level Security: CRUD/CRED operations on objects. Create Read Update/Edit Delete, you are controlling who can create, edit, view, or delete records of an object that they own
+
+Tools: Profiles(CRED operations on objects), Permissions Sets
+Field Level Security: Of objects you have access to, what fields on those objects can you see/edit
+
+Tools: Profiles(What fields you can and can't see and edit), Permission Sets
+Record Level Security: OF objects you have access to, whose records can you see
+
+Tools: OWDS, Role Hierarchy, Sharing Rules, Manual Sharing
+Board_360.png
+
+ 
+
+User Creation
+When you create a USer (someone that can log in to your salesforce org) you must do a few things
+
+They will need:
+
+Name
+Email
+username
+alias
+License 
+profile
+role (kinda)
+A License is a tool that is used to grant access to features in your org, their are many types of licenses
+
+ 
+
+States of a user
+
+Active: means you can log in business as usual
+Frozen: Means you cannot log in, but you still have your license
+Locked: means your tried too many times to log in and you must wait x amount of time or contact your admin
+Deactivated: Means you can't log in and you no longer have a license, this is meant for someone who leaves your company 
+How security levels influence each other
+If you can't access the org you can't access objects fields or records
+
+If you can't read and object, you cannot read its fields, you cannot read anyone's records of that object despite the sharing model
+
+If you cannot edit an Object, you cannot edit any fields or anyone's records despite the sharing model

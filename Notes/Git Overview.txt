@@ -1,0 +1,34 @@
+Git
+What is it?
+
+distributed version control system for tracking changes to source code made while developing
+the entire codebase and history of a project is available on a developer's computer as a local repo
+allows for easy branching and merging of those branches
+local repo contains all information that the remote repo had the last time they synced
+used for organizing and integrating code written by multiple developers
+GitHub
+
+cloud-based git repo hosting service
+it allows us to host our remote repo
+git is a command line(CLI) tool, Github is a web-based GUI
+Git commands
+Initializing a Repo
+
+git init: it initializes a local repo, it creates a .git/ directory in the directory that you run the command in
+
+
+working directory: is where all untracked files and files that have been changed since the last commit exist
+Staging area: is the holding area for code we will eventually commit to our repo
+to see the file in the working directory you can use the command git status
+To add a file to the staging are you use the command git add nameoffiletoadd.extension or if you want to add all changed files to the staging area you can do git add .
+To commit the changes to the local repo you use the command git commit -m"Commit Message"
+To push changes from the local repo to the remote repo we use the command git push
+If we want to clone a remote repository on to our machine, we use the command git clone https://.......
+Branching
+
+the main/master/default branch of your repo is meant to hold production ready code, this is so you can have one source of truth for your code
+Branching allows you to create a different timeline of commits for your project
+When you branch you take a snapshot of ther source branch at that time and clone it to have a new location to develope code in
+Board_202.png
+
+typically branches are used to separate out concerns/features 

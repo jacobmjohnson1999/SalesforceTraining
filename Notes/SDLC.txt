@@ -1,0 +1,199 @@
+SDLC
+Software development Lifecycle
+
+the series of steps that you go through when creating new products
+it has several different methodologies and in those some different frameworks
+Through these different methodologies they share the same steps
+Gathering requirements
+Analyzing the requirements
+designing a solution
+developing the solution
+testing the solution
+UAT (user acceptance testing)
+releasing the solution
+maintaining that solution
+Waterfall
+
+it is a very rigid methodology that follows a strict series of steps
+You follow each step in that order and never revisit a previous step
+Waterfall drawbacks
+
+Excluding the client in every step between gathering requirements and deployment
+Once you deploy you just maintain
+Not testing until after you developed your code
+Waterfall Benefits
+
+There is a clear barrier between steps leads to a clean knowledge transfer between steps
+You know what the end product will look like
+It has no need for methodology/framework specific knowledge
+Time for some terminology
+
+User Story:  an individual feature/ requirement for a project in agile
+Epic: A group of related features that is broken down into multiple user stories
+Story Point: a level of difficulty assigned to a user story through the use of a sequence of numbers that increase with increasing difficulty
+Sprint: A brief period of development (less than four weeks but more than one) generally culminating in a release
+Velocity: The sum of the story points of all the user stories completed during a sprint
+Agile Methodology
+
+is very fluid
+allows you to adjust or expect changing requirements and requests
+Agile Drawbacks
+
+devs might be tempted to put off developing a harder user story or fully developing a user story because it could be done later
+allowing for change means its going to be unpredictable
+Requires a lot of knowledge about its practices when it comes to each individual framework
+Agile Benefits
+
+the ability to adapt to changes or shifts in requests
+have multiple releases
+It allows for initial ambiguity
+The Scrum Framework
+
+Scrum Master: the person that enforces the scrum practices, servant leader
+Board_959.png
+
+Sprint: is a two -four week design/development/testing phase for the features you've selected to be in the sprint backlog
+Daily standups: are lead by the scrum master where everyone in the team says, this is what I did last time, what I'm going to do, and any roadblocks/escalations
+Release: where you deploy all completed features from the sprint
+Retrospective: lead by the scrum master you discuss what went right, what went wrong, and what to do next time
+Scrum Advantages
+
+Daily stand ups: allows for quick identification of problems
+Constant releases
+Scrum Disadvantages
+
+We don't have a final deadline or all of the requirements
+Feature creep: the never ending continuous expansion of features
+To really get the advantages of Scrum you have to follow the ceremonies
+Kanban Framework
+
+follows the kanban board
+kanban board is a visual representation of the progress you make through a project
+Board_711.png
+
+No firm requirement on the columns
+Kanban cards: visual representation of a single user story, they get moved from column to column as someone/team works on them
+Once you are done with a feature you can easily move on to the next
+Kanban Advantages
+
+event driven: removes the constant deadlines from Scrum
+Allows for specialization
+You can always add on more user requirements
+Kanban Disadvantages
+
+The size can get expansive
+You have to commit to it
+There is no timing element
+Scrumban
+
+The combination of Scrum ceremonies with the Kanban board
+
+Agile Frameworks
+Focused more on a set of values
+communication
+simplicity
+feedback
+courage
+respect
+focus goes beyond just the product, focusing on making the team strong
+Includes: weekly sprints, quarterly cycle, continuous integration, incremental design, use user stories and epics, TDD (test-driven-development), paired programming, etc
+One member of the team is going to be the client to give constant, faster feedback
+TDD: the approach of designing the tests that your code must pass before writing the code
+Paired Programming: team is broken into two groups: the pilot and the navigator. The pilot is actively writing the code, and the navigator is telling the pilot what code to write
+XP Downsides
+
+there's a lot going on and you really have to be dedicated to following all of the procedures
+Interaction with the client can be a hinderance
+Weekly sprints can cause corner cutting to meet deadlines
+Sacrifice efficiencies for time
+XP Benefits
+
+close relationship with your client
+focus on communication and Paired programming
+Planning a Project with Agile
+
+at the beginning of a sprint/receiving new features, the team should form the requirements into epics then these are broken down into smaller user stories
+User stories are then assigned story point values for how long they might take
+ 
+
+Basic Git
+Git
+
+is a distributed version control system for tracking changes to source code made while developing
+the entire code base/history of the project is available on a devs computer as a local repository
+GitHub
+
+is a cloud-based git repo hosting service
+Intro Notes
+Salesforce
+
+Founded by M4rc Benioff in 1999
+4th largest software firm in the world
+Its the first cloud hosted CRM(Customer relationship Management) platform
+CRM: a tech that allows companies to easily manage their interactions with their clients/customers
+SaaS: Software as a Service, the application is hosted as a service and provided to customers through the internet
+PaaS: Platform as a Service, Salesforce gives an API that allows customer to create their own applications to extend the given functionality, you are developing and building off of the existing platform
+Out of the box(oob) Salesforce is Saas
+Force.com platform is PaaS
+Salesforce has three releases a year, Winter, Spring and Summer, Salesfroce will make sure that all declarative customizations are maintained across releases, these releases happen automatically and require next to work work on the consumers end
+The releases can become difficult with programmatic changes
+Cloud Computing
+
+is the availability of Infrastructure, platforms, or services available over the web
+Benefits:
+adaptability: the customer gets to focus on writing code while the provider maintains the infrastructure 
+Multitenant environment: abstracts away the underlying infrastructure from you, so each customer doesn't have to maintain or purchase their own infrastructure, instead customers will share the infrastructure resources and pay a lower cost
+reliability: often these companies outsource or have dedicated parties to focus on make sure your application doesn't have down time
+scalability: its really easy to expand or downsize based on your needs
+security: They follow third party security measures and get third party security certificates to prove that they are secure
+Your instance of salesforce is hosted on salesforce owned servers
+Multi-tenant Environment in salesforce
+
+We have multiple people sharing the same resource
+Because of this one person can't hog all of the resource
+This leads to Governor limits: are restrictions placed on your your orgs to make sure one person or one org isn't hogging any resources
+This comes into play with interaction with the database, cpu utilization, heap size, transtion, ect.
+Sales Cloud
+
+is the sales app  made by salesforce and its available to be purchased and used within salesforce
+Service Cloud
+
+is the customer service app created by Salesforce that you can purchase to use within your org
+AppExchange
+
+official Salesforce app Marketplace
+Developers can create solutions to add and extend the functionality of salesforce
+Org: instance of salesforce it holds all of your data and configurations
+
+app: is a collection of tabs, a set of fields, objects, permissions, and functionality that support some business process
+
+Object Tab: is a collection of objects. 
+
+Object: Analogous to a database table or spreadsheet, and more
+
+Standard Object: An object that come oob with Salesforce, an example is the Account Object
+
+Custom Object: Is an object we create
+
+Record: instance of one of our objects or a row in the table
+
+Field: is a column in a table
+
+ERD: Entity Relationship Diagram, show the objects and their relationships between one another. Its a planning tool
+
+Board_269.png
+
+ 
+
+Resources
+Trailhead
+
+https://trailhead.salesforce.com
+Trailhead is salesforce's online learning platform
+It has badges, trails, and trailmixes to help you learn how to use salesforce
+Dev edition
+
+developer edition of salesforce
+Documentation
+
+https://help.salesforce.com/articleView?id=sf.salesforce_help_map.htm&type=5
